@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Asj5G+pWxWEql7p3XwX6twQX8NCxKYlPTp9P4hHjkGI=",
+  "Source": "DistributedLogging.api",
+  "BasePath": "_content/DistributedLogging.api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,444 @@
+2024-12-12 15:46:18.977 +02:00 [INF] Now listening on: https://localhost:7289
+2024-12-12 15:46:19.022 +02:00 [INF] Now listening on: http://localhost:5045
+2024-12-12 15:46:19.024 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-12 15:46:19.025 +02:00 [INF] Hosting environment: Development
+2024-12-12 15:46:19.027 +02:00 [INF] Content root path: C:\Projects\DistributedLogging\DistributedLogging.api
+2024-12-12 15:46:20.185 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger - null null
+2024-12-12 15:46:20.728 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger - 301 0 null 544.7583ms
+2024-12-12 15:46:20.742 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - null null
+2024-12-12 15:46:20.908 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - 200 null text/html;charset=utf-8 164.9519ms
+2024-12-12 15:46:20.968 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - null null
+2024-12-12 15:46:20.976 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - null null
+2024-12-12 15:46:20.977 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - null null
+2024-12-12 15:46:20.977 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-12 15:46:20.978 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_vs/browserLink - null null
+2024-12-12 15:46:20.995 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 17.1068ms
+2024-12-12 15:46:21.011 +02:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-12-12 15:46:21.011 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-12-12 15:46:21.029 +02:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-12-12 15:46:21.057 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 79.9493ms
+2024-12-12 15:46:21.058 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui.css - 200 143943 text/css 90.1534ms
+2024-12-12 15:46:21.060 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 83.5093ms
+2024-12-12 15:46:21.634 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_vs/browserLink - 200 null text/javascript; charset=UTF-8 654.9869ms
+2024-12-12 15:46:21.705 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - null null
+2024-12-12 15:46:21.838 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 133.746ms
+2024-12-12 15:46:22.007 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/favicon-32x32.png - null null
+2024-12-12 15:46:22.011 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-12-12 15:46:22.013 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/favicon-32x32.png - 200 628 image/png 5.2103ms
+2024-12-12 15:46:26.725 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/WeatherForecast - null null
+2024-12-12 15:46:26.733 +02:00 [INF] Executing endpoint 'DistributedLogging.api.Controllers.WeatherForecastController.Get (DistributedLogging.api)'
+2024-12-12 15:46:26.753 +02:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[DistributedLogging.api.WeatherForecast] Get() on controller DistributedLogging.api.Controllers.WeatherForecastController (DistributedLogging.api).
+2024-12-12 15:46:26.764 +02:00 [INF] Executing ObjectResult, writing value of type 'DistributedLogging.api.WeatherForecast[]'.
+2024-12-12 15:46:26.787 +02:00 [INF] Executed action DistributedLogging.api.Controllers.WeatherForecastController.Get (DistributedLogging.api) in 25.4186ms
+2024-12-12 15:46:26.789 +02:00 [INF] Executed endpoint 'DistributedLogging.api.Controllers.WeatherForecastController.Get (DistributedLogging.api)'
+2024-12-12 15:46:26.790 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/WeatherForecast - 200 null application/json; charset=utf-8 65.045ms
+2024-12-12 16:37:15.588 +02:00 [INF] Now listening on: https://localhost:7289
+2024-12-12 16:37:15.616 +02:00 [INF] Now listening on: http://localhost:5045
+2024-12-12 16:37:15.618 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-12 16:37:15.619 +02:00 [INF] Hosting environment: Development
+2024-12-12 16:37:15.619 +02:00 [INF] Content root path: C:\Projects\DistributedLogging\DistributedLogging.api
+2024-12-12 16:37:16.223 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - null null
+2024-12-12 16:37:16.402 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - 200 null text/html;charset=utf-8 180.2275ms
+2024-12-12 16:37:16.476 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-12 16:37:16.481 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 4.3486ms
+2024-12-12 16:37:16.493 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_vs/browserLink - null null
+2024-12-12 16:37:16.517 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.1271ms
+2024-12-12 16:37:16.737 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - null null
+2024-12-12 16:37:16.822 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 85.4762ms
+2024-12-12 16:37:23.751 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/api/LoggedEntries - null null
+2024-12-12 16:37:23.760 +02:00 [INF] Executing endpoint 'DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api)'
+2024-12-12 16:37:23.787 +02:00 [INF] Route matched with {action = "GetLoggedEntriesList", controller = "LoggedEntries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLoggedEntriesList(DistributedLogging.Application.Features.LoggedEntries.Queries.GetLoggedEntriesList.GetLoggedEntriesListQuery) on controller DistributedLogging.api.Controllers.LoggedEntriesController (DistributedLogging.api).
+2024-12-12 16:37:23.823 +02:00 [INF] Executed action DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api) in 30.6423ms
+2024-12-12 16:37:23.827 +02:00 [INF] Executed endpoint 'DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api)'
+2024-12-12 16:37:23.830 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DistributedLogging.api.Controllers.BaseController.Send[T](IRequest`1 r)
+   at DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList(GetLoggedEntriesListQuery query) in C:\Projects\DistributedLogging\DistributedLogging.api\Controllers\LoggedEntriesController.cs:line 12
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-12 16:37:23.861 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/api/LoggedEntries - 500 null text/plain; charset=utf-8 110.1301ms
+2024-12-12 16:38:30.249 +02:00 [INF] Now listening on: https://localhost:7289
+2024-12-12 16:38:30.277 +02:00 [INF] Now listening on: http://localhost:5045
+2024-12-12 16:38:30.279 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-12 16:38:30.282 +02:00 [INF] Hosting environment: Development
+2024-12-12 16:38:30.282 +02:00 [INF] Content root path: C:\Projects\DistributedLogging\DistributedLogging.api
+2024-12-12 16:38:30.436 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - null null
+2024-12-12 16:38:30.576 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - 200 null text/html;charset=utf-8 140.8965ms
+2024-12-12 16:38:30.609 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_vs/browserLink - null null
+2024-12-12 16:38:30.613 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-12 16:38:30.619 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 5.8281ms
+2024-12-12 16:38:30.634 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.329ms
+2024-12-12 16:38:30.724 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - null null
+2024-12-12 16:38:30.796 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 71.4601ms
+2024-12-12 16:38:36.880 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/api/LoggedEntries - null null
+2024-12-12 16:38:36.889 +02:00 [INF] Executing endpoint 'DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api)'
+2024-12-12 16:38:36.905 +02:00 [INF] Route matched with {action = "GetLoggedEntriesList", controller = "LoggedEntries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLoggedEntriesList(DistributedLogging.Application.Features.LoggedEntries.Queries.GetLoggedEntriesList.GetLoggedEntriesListQuery) on controller DistributedLogging.api.Controllers.LoggedEntriesController (DistributedLogging.api).
+2024-12-12 16:38:46.297 +02:00 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT_BIG(*)
+FROM [LoggedEntry] AS [l]
+2024-12-12 16:38:46.326 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-12-12 16:38:46.327 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-12-12 16:38:46.406 +02:00 [INF] Executed DbCommand (32ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[Level], [l].[Message], [l].[Service], [l].[TimeStamp]
+FROM [LoggedEntry] AS [l]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-12-12 16:38:46.415 +02:00 [INF] Executing OkObjectResult, writing value of type 'DistributedLogging.Application.Wrappers.APIResponse`1[[DistributedLogging.Application.Wrappers.PagedResponse`1[[System.Collections.Generic.List`1[[DistributedLogging.Domain.Entities.LoggedEntry, DistributedLogging.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], DistributedLogging.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-12 16:38:46.438 +02:00 [INF] Executed action DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api) in 9526.7562ms
+2024-12-12 16:38:46.440 +02:00 [INF] Executed endpoint 'DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api)'
+2024-12-12 16:38:46.446 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/api/LoggedEntries - 200 null application/json; charset=utf-8 9566.211ms
+2024-12-12 22:23:55.438 +02:00 [INF] Now listening on: https://localhost:7289
+2024-12-12 22:23:55.592 +02:00 [INF] Now listening on: http://localhost:5045
+2024-12-12 22:23:55.599 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-12 22:23:55.601 +02:00 [INF] Hosting environment: Development
+2024-12-12 22:23:55.603 +02:00 [INF] Content root path: C:\Projects\DistributedLogging\DistributedLogging.api
+2024-12-12 22:23:56.271 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - null null
+2024-12-12 22:23:56.712 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - 200 null text/html;charset=utf-8 443.4792ms
+2024-12-12 22:23:56.834 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-12 22:23:56.834 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_vs/browserLink - null null
+2024-12-12 22:23:56.847 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 12.0304ms
+2024-12-12 22:23:56.931 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_vs/browserLink - 200 null text/javascript; charset=UTF-8 96.1303ms
+2024-12-12 22:23:57.090 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - null null
+2024-12-12 22:23:57.241 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 150.4498ms
+2024-12-12 22:24:40.025 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - null null
+2024-12-12 22:24:40.036 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - 200 null text/html;charset=utf-8 11.7255ms
+2024-12-12 22:24:40.134 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-12 22:24:40.135 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_vs/browserLink - null null
+2024-12-12 22:24:40.139 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 4.6351ms
+2024-12-12 22:24:40.150 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.3289ms
+2024-12-12 22:24:40.376 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - null null
+2024-12-12 22:24:40.386 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.2027ms
+2024-12-12 22:24:46.151 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/api/LoggedEntries - null null
+2024-12-12 22:24:46.161 +02:00 [INF] Executing endpoint 'DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api)'
+2024-12-12 22:24:46.192 +02:00 [INF] Route matched with {action = "GetLoggedEntriesList", controller = "LoggedEntries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLoggedEntriesList(DistributedLogging.Application.Features.LoggedEntries.Queries.GetLoggedEntriesList.GetLoggedEntriesListQuery) on controller DistributedLogging.api.Controllers.LoggedEntriesController (DistributedLogging.api).
+2024-12-12 22:24:56.456 +02:00 [INF] Executed DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT_BIG(*)
+FROM [LoggedEntry] AS [l]
+2024-12-12 22:24:56.506 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-12-12 22:24:56.509 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-12-12 22:24:56.593 +02:00 [INF] Executed DbCommand (28ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[Level], [l].[Message], [l].[Service], [l].[TimeStamp]
+FROM [LoggedEntry] AS [l]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-12-12 22:24:56.609 +02:00 [INF] Executing OkObjectResult, writing value of type 'DistributedLogging.Application.Wrappers.APIResponse`1[[DistributedLogging.Application.Wrappers.PagedResponse`1[[System.Collections.Generic.List`1[[DistributedLogging.Domain.Entities.LoggedEntry, DistributedLogging.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], DistributedLogging.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-12 22:24:56.639 +02:00 [INF] Executed action DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api) in 10439.037ms
+2024-12-12 22:24:56.642 +02:00 [INF] Executed endpoint 'DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api)'
+2024-12-12 22:24:56.651 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/api/LoggedEntries - 200 null application/json; charset=utf-8 10500.1914ms
+2024-12-12 22:27:06.595 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/api/LoggedEntries - null null
+2024-12-12 22:27:06.598 +02:00 [INF] Executing endpoint 'DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api)'
+2024-12-12 22:27:06.599 +02:00 [INF] Route matched with {action = "GetLoggedEntriesList", controller = "LoggedEntries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLoggedEntriesList(DistributedLogging.Application.Features.LoggedEntries.Queries.GetLoggedEntriesList.GetLoggedEntriesListQuery) on controller DistributedLogging.api.Controllers.LoggedEntriesController (DistributedLogging.api).
+2024-12-12 22:27:06.703 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT_BIG(*)
+FROM [LoggedEntry] AS [l]
+2024-12-12 22:27:06.712 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[Level], [l].[Message], [l].[Service], [l].[TimeStamp]
+FROM [LoggedEntry] AS [l]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-12-12 22:27:06.714 +02:00 [INF] Executing OkObjectResult, writing value of type 'DistributedLogging.Application.Wrappers.APIResponse`1[[DistributedLogging.Application.Wrappers.PagedResponse`1[[System.Collections.Generic.List`1[[DistributedLogging.Domain.Entities.LoggedEntry, DistributedLogging.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], DistributedLogging.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-12 22:27:06.715 +02:00 [INF] Executed action DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api) in 112.6625ms
+2024-12-12 22:27:06.717 +02:00 [INF] Executed endpoint 'DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api)'
+2024-12-12 22:27:06.718 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/api/LoggedEntries - 200 null application/json; charset=utf-8 122.6327ms
+2024-12-12 22:27:46.457 +02:00 [INF] Now listening on: https://localhost:7289
+2024-12-12 22:27:46.531 +02:00 [INF] Now listening on: http://localhost:5045
+2024-12-12 22:27:46.536 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-12 22:27:46.538 +02:00 [INF] Hosting environment: Development
+2024-12-12 22:27:46.539 +02:00 [INF] Content root path: C:\Projects\DistributedLogging\DistributedLogging.api
+2024-12-12 22:27:51.198 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - null null
+2024-12-12 22:27:51.749 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - 200 null text/html;charset=utf-8 561.9808ms
+2024-12-12 22:27:51.805 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_vs/browserLink - null null
+2024-12-12 22:27:51.805 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-12 22:27:51.862 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 57.4534ms
+2024-12-12 22:27:51.938 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_vs/browserLink - 200 null text/javascript; charset=UTF-8 133.0581ms
+2024-12-12 22:27:52.138 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - null null
+2024-12-12 22:27:52.432 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 294.0447ms
+2024-12-12 22:27:58.110 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/api/LoggedEntries - null null
+2024-12-12 22:27:58.129 +02:00 [INF] Executing endpoint 'DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api)'
+2024-12-12 22:27:58.182 +02:00 [INF] Route matched with {action = "GetLoggedEntriesList", controller = "LoggedEntries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLoggedEntriesList(DistributedLogging.Application.Features.LoggedEntries.Queries.GetLoggedEntriesList.GetLoggedEntriesListQuery) on controller DistributedLogging.api.Controllers.LoggedEntriesController (DistributedLogging.api).
+2024-12-12 22:28:28.888 +02:00 [INF] Executed DbCommand (48ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT_BIG(*)
+FROM [LoggedEntry] AS [l]
+2024-12-12 22:28:32.119 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-12-12 22:28:32.122 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-12-12 22:28:32.293 +02:00 [INF] Executed DbCommand (56ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[Level], [l].[Message], [l].[Service], [l].[TimeStamp]
+FROM [LoggedEntry] AS [l]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-12-12 22:28:56.335 +02:00 [INF] Executing OkObjectResult, writing value of type 'DistributedLogging.Application.Wrappers.APIResponse`1[[DistributedLogging.Application.Wrappers.PagedResponse`1[[System.Collections.Generic.List`1[[DistributedLogging.Domain.Entities.LoggedEntry, DistributedLogging.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], DistributedLogging.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-12 22:28:56.376 +02:00 [INF] Executed action DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api) in 58183.0902ms
+2024-12-12 22:28:56.379 +02:00 [INF] Executed endpoint 'DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api)'
+2024-12-12 22:28:56.394 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/api/LoggedEntries - 200 null application/json; charset=utf-8 58284.0432ms
+2024-12-12 22:29:23.406 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/api/LoggedEntries - null null
+2024-12-12 22:29:23.416 +02:00 [INF] Executing endpoint 'DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api)'
+2024-12-12 22:29:23.419 +02:00 [INF] Route matched with {action = "GetLoggedEntriesList", controller = "LoggedEntries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLoggedEntriesList(DistributedLogging.Application.Features.LoggedEntries.Queries.GetLoggedEntriesList.GetLoggedEntriesListQuery) on controller DistributedLogging.api.Controllers.LoggedEntriesController (DistributedLogging.api).
+2024-12-12 22:30:43.353 +02:00 [INF] Now listening on: https://localhost:7289
+2024-12-12 22:30:43.405 +02:00 [INF] Now listening on: http://localhost:5045
+2024-12-12 22:30:43.408 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-12 22:30:43.410 +02:00 [INF] Hosting environment: Development
+2024-12-12 22:30:43.410 +02:00 [INF] Content root path: C:\Projects\DistributedLogging\DistributedLogging.api
+2024-12-12 22:30:43.967 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - null null
+2024-12-12 22:30:44.313 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - 200 null text/html;charset=utf-8 349.3993ms
+2024-12-12 22:30:44.391 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_vs/browserLink - null null
+2024-12-12 22:30:44.391 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-12 22:30:44.401 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 9.5595ms
+2024-12-12 22:30:44.446 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_vs/browserLink - 200 null text/javascript; charset=UTF-8 54.92ms
+2024-12-12 22:30:44.740 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - null null
+2024-12-12 22:30:44.875 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 135.0733ms
+2024-12-12 22:30:55.241 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/api/LoggedEntries?Page=1&PageSize=100 - null null
+2024-12-12 22:30:55.249 +02:00 [INF] Executing endpoint 'DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api)'
+2024-12-12 22:30:55.274 +02:00 [INF] Route matched with {action = "GetLoggedEntriesList", controller = "LoggedEntries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLoggedEntriesList(DistributedLogging.Application.Features.LoggedEntries.Queries.GetLoggedEntriesList.GetLoggedEntriesListQuery) on controller DistributedLogging.api.Controllers.LoggedEntriesController (DistributedLogging.api).
+2024-12-12 22:30:56.863 +02:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT_BIG(*)
+FROM [LoggedEntry] AS [l]
+2024-12-12 22:30:56.898 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-12-12 22:30:56.899 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-12-12 22:30:56.952 +02:00 [INF] Executed DbCommand (16ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[Level], [l].[Message], [l].[Service], [l].[TimeStamp]
+FROM [LoggedEntry] AS [l]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-12-12 22:30:56.962 +02:00 [INF] Executing OkObjectResult, writing value of type 'DistributedLogging.Application.Wrappers.APIResponse`1[[DistributedLogging.Application.Wrappers.PagedResponse`1[[System.Collections.Generic.List`1[[DistributedLogging.Domain.Entities.LoggedEntry, DistributedLogging.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], DistributedLogging.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-12 22:30:56.990 +02:00 [INF] Executed action DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api) in 1709.1934ms
+2024-12-12 22:30:56.991 +02:00 [INF] Executed endpoint 'DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api)'
+2024-12-12 22:30:56.998 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/api/LoggedEntries?Page=1&PageSize=100 - 200 null application/json; charset=utf-8 1756.7252ms
+2024-12-12 22:35:46.611 +02:00 [INF] Now listening on: https://localhost:7289
+2024-12-12 22:35:46.647 +02:00 [INF] Now listening on: http://localhost:5045
+2024-12-12 22:35:46.649 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-12 22:35:46.651 +02:00 [INF] Hosting environment: Development
+2024-12-12 22:35:46.651 +02:00 [INF] Content root path: C:\Projects\DistributedLogging\DistributedLogging.api
+2024-12-12 22:35:55.397 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - null null
+2024-12-12 22:35:55.681 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - 200 null text/html;charset=utf-8 288.8493ms
+2024-12-12 22:35:55.742 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-12 22:35:55.752 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 10.1935ms
+2024-12-12 22:35:55.771 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_vs/browserLink - null null
+2024-12-12 22:35:55.812 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.9195ms
+2024-12-12 22:35:55.966 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - null null
+2024-12-12 22:35:56.101 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 135.7049ms
+2024-12-12 22:36:00.103 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/api/LoggedEntries - null null
+2024-12-12 22:36:00.111 +02:00 [INF] Executing endpoint 'DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api)'
+2024-12-12 22:36:00.143 +02:00 [INF] Route matched with {action = "GetLoggedEntriesList", controller = "LoggedEntries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLoggedEntriesList(DistributedLogging.Application.Features.LoggedEntries.Queries.GetLoggedEntriesList.GetLoggedEntriesListQuery) on controller DistributedLogging.api.Controllers.LoggedEntriesController (DistributedLogging.api).
+2024-12-12 22:36:07.555 +02:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT_BIG(*)
+FROM [LoggedEntry] AS [l]
+2024-12-12 22:36:07.586 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-12-12 22:36:07.588 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-12-12 22:36:07.670 +02:00 [INF] Executed DbCommand (21ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[Level], [l].[Message], [l].[Service], [l].[TimeStamp]
+FROM [LoggedEntry] AS [l]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-12-12 22:36:07.678 +02:00 [INF] Executing OkObjectResult, writing value of type 'DistributedLogging.Application.Wrappers.APIResponse`1[[DistributedLogging.Application.Wrappers.PagedResponse`1[[System.Collections.Generic.List`1[[DistributedLogging.Domain.Entities.LoggedEntry, DistributedLogging.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], DistributedLogging.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-12 22:36:07.701 +02:00 [INF] Executed action DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api) in 7552.119ms
+2024-12-12 22:36:07.702 +02:00 [INF] Executed endpoint 'DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api)'
+2024-12-12 22:36:07.715 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/api/LoggedEntries - 200 null application/json; charset=utf-8 7612.2594ms
+2024-12-12 22:36:10.602 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/api/LoggedEntries - null null
+2024-12-12 22:36:10.606 +02:00 [INF] Executing endpoint 'DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api)'
+2024-12-12 22:36:10.607 +02:00 [INF] Route matched with {action = "GetLoggedEntriesList", controller = "LoggedEntries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLoggedEntriesList(DistributedLogging.Application.Features.LoggedEntries.Queries.GetLoggedEntriesList.GetLoggedEntriesListQuery) on controller DistributedLogging.api.Controllers.LoggedEntriesController (DistributedLogging.api).
+2024-12-12 22:36:10.671 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT_BIG(*)
+FROM [LoggedEntry] AS [l]
+2024-12-12 22:36:10.677 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[Level], [l].[Message], [l].[Service], [l].[TimeStamp]
+FROM [LoggedEntry] AS [l]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-12-12 22:36:10.680 +02:00 [INF] Executing OkObjectResult, writing value of type 'DistributedLogging.Application.Wrappers.APIResponse`1[[DistributedLogging.Application.Wrappers.PagedResponse`1[[System.Collections.Generic.List`1[[DistributedLogging.Domain.Entities.LoggedEntry, DistributedLogging.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], DistributedLogging.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-12 22:36:10.682 +02:00 [INF] Executed action DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api) in 73.1831ms
+2024-12-12 22:36:10.682 +02:00 [INF] Executed endpoint 'DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api)'
+2024-12-12 22:36:10.683 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/api/LoggedEntries - 200 null application/json; charset=utf-8 82.0909ms
+2024-12-12 22:36:11.576 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/api/LoggedEntries - null null
+2024-12-12 22:36:11.579 +02:00 [INF] Executing endpoint 'DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api)'
+2024-12-12 22:36:11.581 +02:00 [INF] Route matched with {action = "GetLoggedEntriesList", controller = "LoggedEntries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLoggedEntriesList(DistributedLogging.Application.Features.LoggedEntries.Queries.GetLoggedEntriesList.GetLoggedEntriesListQuery) on controller DistributedLogging.api.Controllers.LoggedEntriesController (DistributedLogging.api).
+2024-12-12 22:36:11.603 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT_BIG(*)
+FROM [LoggedEntry] AS [l]
+2024-12-12 22:36:11.609 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[Level], [l].[Message], [l].[Service], [l].[TimeStamp]
+FROM [LoggedEntry] AS [l]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-12-12 22:36:11.612 +02:00 [INF] Executing OkObjectResult, writing value of type 'DistributedLogging.Application.Wrappers.APIResponse`1[[DistributedLogging.Application.Wrappers.PagedResponse`1[[System.Collections.Generic.List`1[[DistributedLogging.Domain.Entities.LoggedEntry, DistributedLogging.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], DistributedLogging.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-12 22:36:11.614 +02:00 [INF] Executed action DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api) in 29.0568ms
+2024-12-12 22:36:11.616 +02:00 [INF] Executed endpoint 'DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api)'
+2024-12-12 22:36:11.617 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/api/LoggedEntries - 200 null application/json; charset=utf-8 41.1527ms
+2024-12-12 22:36:14.718 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/api/LoggedEntries - null null
+2024-12-12 22:36:14.722 +02:00 [INF] Executing endpoint 'DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api)'
+2024-12-12 22:36:14.722 +02:00 [INF] Route matched with {action = "GetLoggedEntriesList", controller = "LoggedEntries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLoggedEntriesList(DistributedLogging.Application.Features.LoggedEntries.Queries.GetLoggedEntriesList.GetLoggedEntriesListQuery) on controller DistributedLogging.api.Controllers.LoggedEntriesController (DistributedLogging.api).
+2024-12-12 22:36:14.727 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT_BIG(*)
+FROM [LoggedEntry] AS [l]
+2024-12-12 22:36:14.736 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[Level], [l].[Message], [l].[Service], [l].[TimeStamp]
+FROM [LoggedEntry] AS [l]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-12-12 22:36:14.737 +02:00 [INF] Executing OkObjectResult, writing value of type 'DistributedLogging.Application.Wrappers.APIResponse`1[[DistributedLogging.Application.Wrappers.PagedResponse`1[[System.Collections.Generic.List`1[[DistributedLogging.Domain.Entities.LoggedEntry, DistributedLogging.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], DistributedLogging.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-12 22:36:14.738 +02:00 [INF] Executed action DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api) in 14.7009ms
+2024-12-12 22:36:14.739 +02:00 [INF] Executed endpoint 'DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api)'
+2024-12-12 22:36:14.741 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/api/LoggedEntries - 200 null application/json; charset=utf-8 23.7841ms
+2024-12-12 22:36:15.379 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/api/LoggedEntries - null null
+2024-12-12 22:36:15.382 +02:00 [INF] Executing endpoint 'DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api)'
+2024-12-12 22:36:15.384 +02:00 [INF] Route matched with {action = "GetLoggedEntriesList", controller = "LoggedEntries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLoggedEntriesList(DistributedLogging.Application.Features.LoggedEntries.Queries.GetLoggedEntriesList.GetLoggedEntriesListQuery) on controller DistributedLogging.api.Controllers.LoggedEntriesController (DistributedLogging.api).
+2024-12-12 22:36:15.389 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT_BIG(*)
+FROM [LoggedEntry] AS [l]
+2024-12-12 22:36:15.392 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[Level], [l].[Message], [l].[Service], [l].[TimeStamp]
+FROM [LoggedEntry] AS [l]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-12-12 22:36:15.393 +02:00 [INF] Executing OkObjectResult, writing value of type 'DistributedLogging.Application.Wrappers.APIResponse`1[[DistributedLogging.Application.Wrappers.PagedResponse`1[[System.Collections.Generic.List`1[[DistributedLogging.Domain.Entities.LoggedEntry, DistributedLogging.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], DistributedLogging.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-12 22:36:15.394 +02:00 [INF] Executed action DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api) in 7.3434ms
+2024-12-12 22:36:15.397 +02:00 [INF] Executed endpoint 'DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api)'
+2024-12-12 22:36:15.398 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/api/LoggedEntries - 200 null application/json; charset=utf-8 18.6206ms
+2024-12-12 22:38:26.242 +02:00 [INF] Now listening on: https://localhost:7289
+2024-12-12 22:38:26.289 +02:00 [INF] Now listening on: http://localhost:5045
+2024-12-12 22:38:26.292 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-12 22:38:26.293 +02:00 [INF] Hosting environment: Development
+2024-12-12 22:38:26.294 +02:00 [INF] Content root path: C:\Projects\DistributedLogging\DistributedLogging.api
+2024-12-12 22:38:37.373 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - null null
+2024-12-12 22:38:37.620 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - 200 null text/html;charset=utf-8 253.0501ms
+2024-12-12 22:38:37.678 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-12 22:38:37.678 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_vs/browserLink - null null
+2024-12-12 22:38:37.686 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 8.1822ms
+2024-12-12 22:38:37.718 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.4341ms
+2024-12-12 22:38:37.860 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - null null
+2024-12-12 22:38:38.004 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 144.1676ms
+2024-12-12 22:38:42.073 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/api/LoggedEntries - null null
+2024-12-12 22:38:42.084 +02:00 [INF] Executing endpoint 'DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api)'
+2024-12-12 22:38:42.113 +02:00 [INF] Route matched with {action = "GetLoggedEntriesList", controller = "LoggedEntries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLoggedEntriesList(DistributedLogging.Application.Features.LoggedEntries.Queries.GetLoggedEntriesList.GetLoggedEntriesListQuery) on controller DistributedLogging.api.Controllers.LoggedEntriesController (DistributedLogging.api).
+2024-12-12 22:40:19.953 +02:00 [INF] Now listening on: https://localhost:7289
+2024-12-12 22:40:19.996 +02:00 [INF] Now listening on: http://localhost:5045
+2024-12-12 22:40:20.000 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-12 22:40:20.002 +02:00 [INF] Hosting environment: Development
+2024-12-12 22:40:20.004 +02:00 [INF] Content root path: C:\Projects\DistributedLogging\DistributedLogging.api
+2024-12-12 22:40:25.534 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - null null
+2024-12-12 22:40:25.810 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - 200 null text/html;charset=utf-8 283.9984ms
+2024-12-12 22:40:25.870 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-12 22:40:25.870 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_vs/browserLink - null null
+2024-12-12 22:40:25.878 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 7.7815ms
+2024-12-12 22:40:25.906 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.5296ms
+2024-12-12 22:40:26.055 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - null null
+2024-12-12 22:40:26.199 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 152.2178ms
+2024-12-12 22:40:30.679 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/api/LoggedEntries - null null
+2024-12-12 22:40:30.699 +02:00 [INF] Executing endpoint 'DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api)'
+2024-12-12 22:40:30.756 +02:00 [INF] Route matched with {action = "GetLoggedEntriesList", controller = "LoggedEntries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLoggedEntriesList(DistributedLogging.Application.Features.LoggedEntries.Queries.GetLoggedEntriesList.GetLoggedEntriesListQuery) on controller DistributedLogging.api.Controllers.LoggedEntriesController (DistributedLogging.api).
+2024-12-12 22:40:42.913 +02:00 [INF] Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT_BIG(*)
+FROM [LoggedEntry] AS [l]
+2024-12-12 22:40:42.977 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-12-12 22:40:42.979 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-12-12 22:40:43.114 +02:00 [INF] Executed DbCommand (36ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[Level], [l].[Message], [l].[Service], [l].[TimeStamp]
+FROM [LoggedEntry] AS [l]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-12-12 22:40:43.338 +02:00 [INF] Executing OkObjectResult, writing value of type 'DistributedLogging.Application.Wrappers.APIResponse`1[[DistributedLogging.Application.Wrappers.PagedResponse`1[[System.Collections.Generic.List`1[[DistributedLogging.Domain.Entities.LoggedEntry, DistributedLogging.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], DistributedLogging.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-12 22:40:43.373 +02:00 [INF] Executed action DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api) in 12588.4483ms
+2024-12-12 22:40:43.376 +02:00 [INF] Executed endpoint 'DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api)'
+2024-12-12 22:40:43.391 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/api/LoggedEntries - 200 null application/json; charset=utf-8 12691.748ms
+2024-12-12 22:51:04.303 +02:00 [INF] Now listening on: https://localhost:7289
+2024-12-12 22:51:04.328 +02:00 [INF] Now listening on: http://localhost:5045
+2024-12-12 22:51:04.330 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-12 22:51:04.330 +02:00 [INF] Hosting environment: Development
+2024-12-12 22:51:04.331 +02:00 [INF] Content root path: C:\Projects\DistributedLogging\DistributedLogging.api
+2024-12-12 22:51:04.624 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - null null
+2024-12-12 22:51:04.808 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - 200 null text/html;charset=utf-8 185.851ms
+2024-12-12 22:51:04.877 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_vs/browserLink - null null
+2024-12-12 22:51:04.877 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-12 22:51:04.885 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 8.0413ms
+2024-12-12 22:51:04.903 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_vs/browserLink - 200 null text/javascript; charset=UTF-8 26.1668ms
+2024-12-12 22:51:05.063 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - null null
+2024-12-12 22:51:05.142 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 79.4722ms
+2024-12-12 22:51:12.449 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7289/api/LoggedEntries - application/json 112
+2024-12-12 22:51:12.462 +02:00 [INF] Executing endpoint 'DistributedLogging.api.Controllers.LoggedEntriesController.PostLoggedEntries (DistributedLogging.api)'
+2024-12-12 22:51:12.480 +02:00 [INF] Route matched with {action = "PostLoggedEntries", controller = "LoggedEntries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostLoggedEntries(DistributedLogging.Application.Features.LoggedEntries.Commands.CreateLoggedEntry.CreateLoggedEntryCommand) on controller DistributedLogging.api.Controllers.LoggedEntriesController (DistributedLogging.api).
+2024-12-12 22:51:13.912 +02:00 [INF] Executed DbCommand (75ms) [Parameters=[@p0='?' (Size = 60), @p1='?' (Size = 100), @p2='?' (Size = 60), @p3='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [LoggedEntry] ([Level], [Message], [Service], [TimeStamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-12-12 22:51:13.960 +02:00 [INF] Executed action DistributedLogging.api.Controllers.LoggedEntriesController.PostLoggedEntries (DistributedLogging.api) in 1476.5868ms
+2024-12-12 22:51:13.962 +02:00 [INF] Executed endpoint 'DistributedLogging.api.Controllers.LoggedEntriesController.PostLoggedEntries (DistributedLogging.api)'
+2024-12-12 22:51:13.965 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at DistributedLogging.Application.Features.LoggedEntries.Commands.CreateLoggedEntry.CreateLoggedEntryCommandHandler.Handle(CreateLoggedEntryCommand request, CancellationToken cancellationToken) in C:\Projects\DistributedLogging\DistributedLogging.Application\Features\LoggedEntries\Commands\CreateLoggedEntry\CreateLoggedEntryCommand.cs:line 33
+   at DistributedLogging.Application.Behaviors.ValidationBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Projects\DistributedLogging\DistributedLogging.Application\Behaviors\ValidationBehavior.cs:line 29
+   at DistributedLogging.api.Controllers.BaseController.Send[T](IRequest`1 r) in C:\Projects\DistributedLogging\DistributedLogging.api\Controllers\BaseController.cs:line 30
+   at DistributedLogging.api.Controllers.LoggedEntriesController.PostLoggedEntries(CreateLoggedEntryCommand createLoggedEntryCommand) in C:\Projects\DistributedLogging\DistributedLogging.api\Controllers\LoggedEntriesController.cs:line 15
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-12 22:51:14.002 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7289/api/LoggedEntries - 500 null text/plain; charset=utf-8 1553.6882ms
+2024-12-12 22:51:54.398 +02:00 [INF] Now listening on: https://localhost:7289
+2024-12-12 22:51:54.427 +02:00 [INF] Now listening on: http://localhost:5045
+2024-12-12 22:51:54.429 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-12 22:51:54.430 +02:00 [INF] Hosting environment: Development
+2024-12-12 22:51:54.430 +02:00 [INF] Content root path: C:\Projects\DistributedLogging\DistributedLogging.api
+2024-12-12 22:51:54.508 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - null null
+2024-12-12 22:51:54.657 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - 200 null text/html;charset=utf-8 150.3343ms
+2024-12-12 22:51:54.703 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_vs/browserLink - null null
+2024-12-12 22:51:54.703 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-12 22:51:54.710 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 6.933ms
+2024-12-12 22:51:54.728 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.3206ms
+2024-12-12 22:51:54.752 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - null null
+2024-12-12 22:51:54.857 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 104.7279ms
+2024-12-12 22:52:01.924 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7289/api/LoggedEntries - application/json 112
+2024-12-12 22:52:01.935 +02:00 [INF] Executing endpoint 'DistributedLogging.api.Controllers.LoggedEntriesController.PostLoggedEntries (DistributedLogging.api)'
+2024-12-12 22:52:01.955 +02:00 [INF] Route matched with {action = "PostLoggedEntries", controller = "LoggedEntries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostLoggedEntries(DistributedLogging.Application.Features.LoggedEntries.Commands.CreateLoggedEntry.CreateLoggedEntryCommand) on controller DistributedLogging.api.Controllers.LoggedEntriesController (DistributedLogging.api).
+2024-12-12 22:52:03.386 +02:00 [INF] Executed DbCommand (40ms) [Parameters=[@p0='?' (Size = 60), @p1='?' (Size = 100), @p2='?' (Size = 60), @p3='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [LoggedEntry] ([Level], [Message], [Service], [TimeStamp])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2024-12-12 22:52:03.456 +02:00 [INF] Executing OkObjectResult, writing value of type 'DistributedLogging.Application.Wrappers.APIResponse`1[[DistributedLogging.Application.Features.LoggedEntries.Commands.CreateLoggedEntry.CreateLoggedEntryCommand, DistributedLogging.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-12 22:52:03.472 +02:00 [INF] Executed action DistributedLogging.api.Controllers.LoggedEntriesController.PostLoggedEntries (DistributedLogging.api) in 1512.5283ms
+2024-12-12 22:52:03.473 +02:00 [INF] Executed endpoint 'DistributedLogging.api.Controllers.LoggedEntriesController.PostLoggedEntries (DistributedLogging.api)'
+2024-12-12 22:52:03.480 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7289/api/LoggedEntries - 200 null application/json; charset=utf-8 1555.7447ms
+2024-12-12 22:52:15.217 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7289/api/LoggedEntries - null null
+2024-12-12 22:52:15.223 +02:00 [INF] Executing endpoint 'DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api)'
+2024-12-12 22:52:15.237 +02:00 [INF] Route matched with {action = "GetLoggedEntriesList", controller = "LoggedEntries"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLoggedEntriesList(DistributedLogging.Application.Features.LoggedEntries.Queries.GetLoggedEntriesList.GetLoggedEntriesListQuery) on controller DistributedLogging.api.Controllers.LoggedEntriesController (DistributedLogging.api).
+2024-12-12 22:52:15.533 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT_BIG(*)
+FROM [LoggedEntry] AS [l]
+2024-12-12 22:52:15.553 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-12-12 22:52:15.554 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-12-12 22:52:15.581 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [l].[Id], [l].[Level], [l].[Message], [l].[Service], [l].[TimeStamp]
+FROM [LoggedEntry] AS [l]
+ORDER BY (SELECT 1)
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2024-12-12 22:52:15.675 +02:00 [INF] Executing OkObjectResult, writing value of type 'DistributedLogging.Application.Wrappers.APIResponse`1[[DistributedLogging.Application.Wrappers.PagedResponse`1[[System.Collections.Generic.List`1[[DistributedLogging.Domain.Entities.LoggedEntry, DistributedLogging.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], DistributedLogging.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-12 22:52:15.685 +02:00 [INF] Executed action DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api) in 445.8078ms
+2024-12-12 22:52:15.686 +02:00 [INF] Executed endpoint 'DistributedLogging.api.Controllers.LoggedEntriesController.GetLoggedEntriesList (DistributedLogging.api)'
+2024-12-12 22:52:15.687 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7289/api/LoggedEntries - 200 null application/json; charset=utf-8 470.7985ms

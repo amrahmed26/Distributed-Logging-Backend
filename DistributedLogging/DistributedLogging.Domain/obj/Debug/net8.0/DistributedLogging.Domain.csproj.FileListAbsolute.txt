@@ -1,0 +1,11 @@
+C:\Projects\DistributedLogging\DistributedLogging.Domain\bin\Debug\net8.0\DistributedLogging.Domain.deps.json
+C:\Projects\DistributedLogging\DistributedLogging.Domain\bin\Debug\net8.0\DistributedLogging.Domain.dll
+C:\Projects\DistributedLogging\DistributedLogging.Domain\bin\Debug\net8.0\DistributedLogging.Domain.pdb
+C:\Projects\DistributedLogging\DistributedLogging.Domain\obj\Debug\net8.0\DistributedLogging.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\DistributedLogging\DistributedLogging.Domain\obj\Debug\net8.0\DistributedLogging.Domain.AssemblyInfoInputs.cache
+C:\Projects\DistributedLogging\DistributedLogging.Domain\obj\Debug\net8.0\DistributedLogging.Domain.AssemblyInfo.cs
+C:\Projects\DistributedLogging\DistributedLogging.Domain\obj\Debug\net8.0\DistributedLogging.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\DistributedLogging\DistributedLogging.Domain\obj\Debug\net8.0\DistributedLogging.Domain.dll
+C:\Projects\DistributedLogging\DistributedLogging.Domain\obj\Debug\net8.0\refint\DistributedLogging.Domain.dll
+C:\Projects\DistributedLogging\DistributedLogging.Domain\obj\Debug\net8.0\DistributedLogging.Domain.pdb
+C:\Projects\DistributedLogging\DistributedLogging.Domain\obj\Debug\net8.0\ref\DistributedLogging.Domain.dll
